@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f7fc;
+  }
+  
+  .main-container {
+    padding: 1rem;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #f2f7fc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin: 0;
+    background-color: #f2f7fc;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .kanban-board {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .kanban-column {
+    flex: 1;
+    background-color: #f2f7fc;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  
+  .column-header {
+    text-align: left;
+    background-color: #f2f7fc;
+    margin: -1rem -1rem 1rem;
+    padding: 0.5rem;
+    /* border-bottom: 1px solid #ddd; */
+  }
+  
+  .tickets-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .ticket {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  
+  /* .priority-4 { border-left: 5px solid red; }
+  .priority-3 { border-left: 5px solid orange; }
+  .priority-2 { border-left: 5px solid yellow; }
+  .priority-1 { border-left: 5px solid green; }
+  .priority-0 { border-left: 5px solid gray; } */
+  
