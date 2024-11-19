@@ -100,7 +100,6 @@ const   KanbanBoard = ({ tickets, users, grouping, ordering }) => {
             </h2>
             <div className="tickets-container">
               {sortTickets(groupedTickets[group]).map((ticket) => {
-                const user = users.find((user) => user.id === ticket.userId);
 
                 return (
                   <div key={ticket.id} className={`ticket`}>

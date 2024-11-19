@@ -23,7 +23,7 @@ const Main = () => {
         const savedGrouping = localStorage.getItem("grouping");
         const savedOrdering = localStorage.getItem("ordering");
         fetchData();
-        if (savedGrouping == "status" || savedOrdering == "priority") {
+        if (savedGrouping === "status" || savedOrdering === "priority") {
             setGrouping(savedGrouping);
             setOrdering(savedOrdering);
         }
